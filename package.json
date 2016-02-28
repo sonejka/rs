@@ -39,5 +39,8 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "normalize.scss": "^0.1.0"
   }
 }
