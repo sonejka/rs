@@ -52,7 +52,7 @@
     COMMON STYLES
 \*------------------------------------*/
 body {
-  background: #fafafa;
+  background: #fff;
   font-family: 'Roboto Condensed', sans-serif;
   color: #333;
 }
@@ -64,29 +64,67 @@ body {
   padding: 0.2em 0;
 }
 
+section {
+  max-width: 1024px;
+  margin: auto;
+  overflow: hidden;
+  padding: 30px 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: #e5194c;
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+/*------------------------------------*\
+    HEADER
+\*------------------------------------*/
+
 .header-wrapper {
   width: 100%;
   min-height: 100px;
   background: #141414;
   position: fixed;
   top: 0;
+  z-index: 1000;
 }
 
 header {
-  margin: auto;
-  max-width: 1000px;
+  @extend section;
+  padding: 0 20px;
 }
 
-//.banner {
-//  img {
-//    width: 100%;
-//  }
-//}
+.logo {
+  float: left;
+  img {
+    height: 80px;
+    margin-top: 10px;
+  }
+}
+
+.header-wrapper + section {
+  padding-top: 130px;
+}
+
+/*------------------------------------*\
+    NAVIGATION
+\*------------------------------------*/
 
 .main-nav {
-  max-width: 1000px;
   padding: 0;
-  margin: 140px auto 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
@@ -129,19 +167,9 @@ header {
       width: 100%;
       text-align: center;
       z-index: 10;
-      //font-family: 'Dancing Script', cursive;
       line-height: 62px;
       font-size: 62px;
     }
-
-  }
-}
-
-.logo {
-  float: left;
-  img {
-    height: 80px;
-    margin-top: 10px;
   }
 }
 
@@ -165,5 +193,281 @@ header {
   }
 }
 
+/*------------------------------------*\
+    SCHEDULE
+\*------------------------------------*/
 
+.schedule-wrapper {
+  background: #404040;
+  color: #fff;
+  //padding: 40px 0;
+  //margin: 30px 0 0;
+}
 
+.schedule-full {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    min-height: 120px;
+    position: relative;
+    padding: 10px 0 10px 140px;
+    clear: both;
+    font-size: 16px;
+    h3 {
+      margin-top: 5px;
+      font-weight: normal;
+    }
+    .time {
+      margin: 0;
+      font-size: 30px;
+      color: #f0bf19;
+    }
+    .speaker-name {
+      color: #999;
+      margin: 0;
+      line-height: 0.8;
+      padding: 0;
+    }
+  }
+  .speaker-photo {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.speaker-wanted {
+  background: #ebebeb;
+
+  section {
+    max-width: 600px;
+    //padding: 60px 0;
+    text-align: center;
+  }
+}
+
+/*------------------------------------*\
+    FOOTER
+\*------------------------------------*/
+
+.footer-wrapper {
+  background: #252525;
+  color: #666;
+}
+
+footer {
+  @extend section;
+  position: relative;
+  min-height: 240px;
+  padding: 0 20px;
+
+  .nav {
+    float: none;
+    padding: 0;
+    margin: 0;
+    li:first-child a {
+      margin: 0;
+    }
+
+    li a {
+      &:hover {
+        background: #252525;
+      }
+    }
+  }
+}
+
+.footer-logo {
+  position: absolute;
+  top: 50%;
+  right: -100px;
+  display: block;
+  background: url("../images/logo_rs2.svg") no-repeat 0 0;
+  background-size: contain;
+  width: 289px;
+  height: 151px;
+  opacity: .7;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/*------------------------------------*\
+    BREAKPOINT - 1024
+\*------------------------------------*/
+
+@media only screen and (max-width: 1024px) {
+  section {
+    max-width: 768px;
+  }
+
+  .main-nav li .title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+/*------------------------------------*\
+   BREAKPOINT - 768
+\*------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+  section {
+    max-width: 600px;
+  }
+
+  header {
+    min-height: 130px;
+  }
+
+  .header-wrapper + section {
+    padding-top: 160px;
+  }
+
+  .logo {
+    margin-top: -40px;
+  }
+
+  .nav {
+    margin-top: 20px;
+  }
+
+  .nav + .nav {
+    clear: both;
+  }
+
+  .main-nav li {
+    width: 48%;
+    padding: 10px 0;
+    .title {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+
+}
+
+/*------------------------------------*\
+   BREAKPOINT - 600
+\*------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  section {
+    max-width: 480px;
+  }
+
+  .logo img {
+    height: 70px;
+  }
+}
+
+/*------------------------------------*\
+   BREAKPOINT - 480
+\*------------------------------------*/
+
+@media only screen and (max-width: 480px) {
+  section {
+    max-width: 375px;
+  }
+
+  .logo img {
+    position: absolute;
+    top: 0;
+    height: 55px;
+  }
+
+  .main-nav li .title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .nav {
+    margin: 20px 0 0 0;
+  }
+
+  .nav + .nav {
+    margin: 20px 0 0 0;
+  }
+
+  .schedule-full {
+    li {
+      padding: 0;
+    }
+    .speaker-photo {
+      position: relative;
+      float: right;
+      height: 80px;
+      width: 80px;
+      top: 10px;
+      margin: 0 0 10px 10px;
+    }
+  }
+
+  footer {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .footer-logo {
+    position: relative;
+    top: auto;
+    right: 0;
+    transform: translateY(0);
+    margin: auto;
+    width: auto;
+    background-position: center;
+  }
+}
+
+/*------------------------------------*\
+   BREAKPOINT - 375
+\*------------------------------------*/
+
+@media only screen and (max-width: 375px) {
+  section {
+    max-width: 320px;
+    padding: 20px 10px;
+
+  }
+
+  header {
+    padding: 70px 10px 0;
+    min-height: 130px;
+    text-align: center;
+  }
+
+  .header-wrapper + section {
+    padding-top: 220px;
+  }
+
+  .logo img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .nav, .nav + .nav {
+    padding-left: 0;
+    float: none;
+  }
+
+  .nav li .title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+}
+
+/*------------------------------------*\
+   BREAKPOINT - 320
+\*------------------------------------*/
+
+@media only screen and (max-width: 320px) {
+  section {
+    max-width: 300px;
+  }
+
+}
