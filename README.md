@@ -1,3 +1,5 @@
 # rs
 
-## http://sonejka.github.io/rs/dist/
+###Links
+- http://sonejka.github.io/rs/dist/
+- http://sonejka.github.io/rs/dist/minsk.html
