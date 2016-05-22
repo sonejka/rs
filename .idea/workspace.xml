@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91e076f7-c90c-42df-9d67-0b5d1b9ede87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/minsk-2.html" afterPath="$PROJECT_DIR$/app/minsk-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/minsk-2.html" afterPath="$PROJECT_DIR$/dist/minsk-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="91e076f7-c90c-42df-9d67-0b5d1b9ede87" name="Default" comment="" />
     <ignored path="rs-new-design.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,10 +24,9 @@
       <file leaf-file-name="minsk.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/minsk.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9245284">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="344" selection-end-column="10" />
+            <state vertical-scroll-proportion="-3.2264152">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
               <folding>
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <marker date="1463915854166" expanded="true" signature="831:982" placeholder="..." />
                 <marker date="1463915854166" expanded="true" signature="924:950" placeholder="..." />
               </folding>
@@ -42,17 +37,17 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2125">
-              <caret line="444" column="20" selection-start-line="444" selection-start-column="20" selection-end-line="444" selection-end-column="20" />
+            <state vertical-scroll-proportion="-2.85">
+              <caret line="447" column="14" selection-start-line="447" selection-start-column="14" selection-end-line="447" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="minsk-2.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="minsk-2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/minsk-2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37254903">
+            <state vertical-scroll-proportion="-6.09434">
               <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="50" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -66,39 +61,32 @@
       <file leaf-file-name="main-2.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main-2.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-39.1875">
-              <caret line="392" column="11" selection-start-line="392" selection-start-column="11" selection-end-line="392" selection-end-column="11" />
+            <state vertical-scroll-proportion="-4.3375">
+              <caret line="249" column="7" selection-start-line="249" selection-start-column="7" selection-end-line="249" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
+      <file leaf-file-name="main-3.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/styles/main-3.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7488095">
+              <caret line="420" column="18" selection-start-line="420" selection-start-column="18" selection-end-line="420" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.babel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
+      <file leaf-file-name="minsk-3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/minsk-3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.5555553">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2830188">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-10.584906">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding>
+                <marker date="1463944102239" expanded="true" signature="827:978" placeholder="..." />
+                <marker date="1463944102239" expanded="true" signature="920:946" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,6 +106,8 @@
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/styles/main-2.scss" />
         <option value="$PROJECT_DIR$/app/minsk-2.html" />
+        <option value="$PROJECT_DIR$/app/minsk-3.html" />
+        <option value="$PROJECT_DIR$/app/styles/main-3.scss" />
       </list>
     </option>
   </component>
@@ -332,31 +322,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/minsk.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="383" column="10" selection-start-line="383" selection-start-column="10" selection-end-line="383" selection-end-column="10" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1463915854166" expanded="true" signature="831:982" placeholder="..." />
-            <marker date="1463915854166" expanded="true" signature="924:950" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -370,7 +340,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <marker date="1463915854166" expanded="true" signature="831:982" placeholder="..." />
             <marker date="1463915854166" expanded="true" signature="924:950" placeholder="..." />
           </folding>
@@ -677,36 +646,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2125">
-          <caret line="444" column="20" selection-start-line="444" selection-start-column="20" selection-end-line="444" selection-end-column="20" />
+        <state vertical-scroll-proportion="-2.85">
+          <caret line="447" column="14" selection-start-line="447" selection-start-column="14" selection-end-line="447" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/minsk.html">
+    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9245284">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="344" selection-end-column="10" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1463915854166" expanded="true" signature="831:982" placeholder="..." />
-            <marker date="1463915854166" expanded="true" signature="924:950" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.13773796">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2830188">
+        <state vertical-scroll-proportion="0.078431375">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main-2.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.1875">
-          <caret line="392" column="11" selection-start-line="392" selection-start-column="11" selection-end-line="392" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -719,23 +676,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
+    <entry file="file://$PROJECT_DIR$/app/styles/main-2.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5555553">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state vertical-scroll-proportion="-4.3375">
+          <caret line="249" column="7" selection-start-line="249" selection-start-column="7" selection-end-line="249" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/minsk-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37254903">
+        <state vertical-scroll-proportion="-6.09434">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="50" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <marker date="1463922047314" expanded="true" signature="827:978" placeholder="..." />
             <marker date="1463922047314" expanded="true" signature="920:946" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/minsk-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.584906">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <marker date="1463944102239" expanded="true" signature="827:978" placeholder="..." />
+            <marker date="1463944102239" expanded="true" signature="920:946" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/minsk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2264152">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <marker date="1463915854166" expanded="true" signature="831:982" placeholder="..." />
+            <marker date="1463915854166" expanded="true" signature="924:950" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main-3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7488095">
+          <caret line="420" column="18" selection-start-line="420" selection-start-column="18" selection-end-line="420" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
