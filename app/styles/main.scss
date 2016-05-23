@@ -7,6 +7,7 @@
     VARIABLES
 \*------------------------------------*/
 $accent-color: #f0bf19;
+$link-color: #e5194c;
 
 /*------------------------------------*\
     MIXINS
@@ -86,7 +87,7 @@ p {
 }
 
 a {
-  color: #e5194c;
+  color: $link-color;
   text-decoration: none
 }
 
@@ -132,13 +133,12 @@ header {
   padding: 0;
   margin: 0 auto;
   li {
+    float: left;
     display: inline-block;
     position: relative;
-    width: 33%;
+    width: 33.3%;
     overflow: hidden;
-
-    padding-bottom: 33%;
-    position: relative;
+    padding-bottom: 33.3%;
 
     a {
       display: block;
@@ -401,7 +401,7 @@ footer {
 
 .button-wrapper {
   text-align: center;
-  padding: 70px 0 20px;
+  padding: 20px 0 30px;
 }
 
 .event-schedule + .button-wrapper {
@@ -411,21 +411,31 @@ footer {
 .register-button {
   display: inline-block;
   width: 100%;
-  padding: 15px 0;
-  color: #e5194c;
-  border: 1px solid #e5194c;
-  transition: background .8s, color .5s;
+  padding: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $link-color;
+  border-radius: 2px;
+  box-shadow: 0 0 2px $link-color;
+  transition: background .3s, color .1s;
+  background: #fff;
+  i {
+    margin-right: 10px;
+  }
   &:hover {
     text-decoration: none;
-    background: #e5194c;
+    background: $link-color;
     color: #fff;
   }
 }
 
 h2.day-number {
-  padding: 40px 0 10px 0;
+  padding: 5px 0;
   margin: 0;
   font-weight: normal;
+  background: #bbb;
+  color: #fff;
+  text-align: center;
 }
 
 .event-schedule {
@@ -434,15 +444,17 @@ h2.day-number {
 }
 
 .event-schedule-item {
-  padding: 30px 0;
-  display: table;
-  width: 100%;
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  padding: 50px 0 50px 88px;
+  border-top: 1px solid #ccc;
   .first-stream, .second-stream {
     display: table-cell;
-    width: 50%;
     padding: 0 30px 0 0;
+    width: 40%;
     > * {
-      margin: 0 0 0 120px;
+      margin: 0 0 0 130px;
     }
   }
   .second-stream {
@@ -450,7 +462,7 @@ h2.day-number {
   }
 
   > * {
-    margin: 0 0 0 120px;
+    margin: 0 0 0 130px;
     line-height: 1.4em;
     padding: 0;
     list-style-position: inside;
@@ -464,7 +476,7 @@ h2.day-number {
     width: 100px;
     border-radius: 50%;
     float: left;
-    margin: 0 20px 0 0;
+    margin: 6px 30px 0 0;
   }
   .speaker-name {
     color: #bbb;
@@ -472,14 +484,16 @@ h2.day-number {
 }
 
 .speech-time {
-  display: table-caption;
-  font-size: 24px;
-  color: #fff;
-  background: #404040;
-  text-align: center;
-  font-weight: normal;
-  padding: 2px 0;
+  position: absolute;
+  left: 0;
+  width: 58px;
+  font-size: 30px;
+  line-height: 1em;
+  color: #ccc;
+  font-weight: 400;
+  padding: 0;
   margin: 0;
+  top: 5px;
 }
 
 .first-stream-mark h3:before, .second-stream-mark h3:before {
@@ -521,6 +535,31 @@ h2.day-number {
     font-size: 40px;
     line-height: 40px;
   }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .event-schedule-item {
+    padding: 50px 0;
+
+    .first-stream, .second-stream {
+      display: block;
+      margin: 0;
+      width: 100%;
+    }
+    .second-stream {
+      padding: 50px 0 0 0;
+    }
+  }
+
+  .speech-time {
+    font-size: 20px;
+  }
+
+  .first-stream-mark h3:before, .second-stream-mark h3:before {
+    top: -18px;
+  }
 }
 
 /*------------------------------------*\
@@ -553,8 +592,8 @@ h2.day-number {
   }
 
   .main-nav li {
-    width: 48%;
-    padding-bottom: 48%;
+    width: 50%;
+    padding-bottom: 50%;
 
     .title {
       font-size: 40px;
@@ -572,6 +611,28 @@ h2.day-number {
   section {
     max-width: 480px;
   }
+
+  .event-schedule-item > *,
+  .event-schedule-item .first-stream > *, .event-schedule-item .second-stream > * {
+    margin: 0;
+  }
+
+  .event-schedule-item .speaker-photo {
+    border-radius: 0;
+    margin: 6px 0 10px 10px;
+    float: right;
+  }
+
+  .event-title {
+    text-align: center;
+  }
+
+  .first-stream-mark h3:before, .second-stream-mark h3:before {
+    left: auto;
+    right: 0;
+    top: -12px;
+  }
+
 }
 
 /*------------------------------------*\
@@ -643,6 +704,33 @@ h2.day-number {
     width: auto;
     background-position: center;
   }
+
+  .button-wrapper {
+    text-align: right;
+    padding-bottom: 0;
+  }
+
+  .register-button {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 240px;
+    text-align: right;
+    i {
+      float: left;
+      margin: 0;
+      font-size: 30px;
+    }
+  }
+
+  .register-button {
+    color: #fff;
+    background: $link-color;
+    &:hover {
+      background: #fff;
+      color: $link-color;
+    }
+  }
+
 }
 
 /*------------------------------------*\
@@ -662,6 +750,10 @@ h2.day-number {
   }
   .nav li a {
     font-size: 12px;
+  }
+
+  .button-wrapper {
+    text-align: center;
   }
 }
 
