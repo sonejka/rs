@@ -95,6 +95,10 @@ a:hover {
   text-decoration: underline
 }
 
+.text-center {
+  text-align: center;
+}
+
 /*------------------------------------*\
     HEADER
 \*------------------------------------*/
@@ -514,6 +518,35 @@ h2.day-number {
   content: "1 этаж";
 }
 
+
+/*------------------------------------*\
+    PARTNER-LIST
+\*------------------------------------*/
+.partner-list {
+  padding: 0;
+  -webkit-flex-flow: wrap row;
+  flex-flow: row wrap;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  li {
+    max-width: 220px;
+    margin: auto;
+    padding: 1em .5em;
+    box-sizing: border-box;
+    text-align: center;
+    img {
+      width: 200px;
+      max-height: 200px;
+    }
+  }
+}
+
+
 /*------------------------------------*\
     BREAKPOINT - 1024
 \*------------------------------------*/
@@ -631,6 +664,10 @@ h2.day-number {
     left: auto;
     right: 0;
     top: -12px;
+  }
+
+  .partner-list li img {
+    width: 140px;
   }
 
 }
